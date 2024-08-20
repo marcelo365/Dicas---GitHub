@@ -1,0 +1,47 @@
+/*Inicializar o git */ --> git init
+
+/* colocar todos os arquivos no stage */ --> git add .
+
+/* colocar um arquivo no stage */ --> git add <nomeDoArquivo>
+
+/* remover arquivos do stage */ --> git reset
+
+/* remover um arquivo do stage */ --> git reset <nomeDoArquivo>  
+
+/* comitar */ --> git commit -m "nomeDoCommit"
+
+
+-------------------------------------------------------------------------------------------------
+
+/* verificar o histórico dos commits */ --> git log
+
+/* verificar o status do git */ --> git status
+
+-------------------------------------------------------------------------------------------------
+
+/* para voltar em um ponto do histórico do commit através do ID do commit podemos usar : */
+/* Checkout (modifica o histórico) */ -- >        git checkout <IDCommit>
+
+/*para voltar ao estado actual*/ -->   git checkout <nomeDaBranch>
+
+-------------------------------------------------------------------------------------------------------
+
+/*podemos usar o reset para voltar em um ponto do histórico do commit através do ID do commit */
+/* reset (reseta até o id do commit especificado modificando o histórico)*/ --> git reset <IDCommit> --hard
+
+/*OBS : o --hard serve para limpar as modificações feitas do commit actual até o commit especificado*/
+
+---------------------------------------------------------------------------------------------------------
+
+/*listar as branchs existentes */ -->       git branch
+
+/*criar branch */ -->    git branch <nomeBranch>
+
+/*mudar de branch (selecionar branch) */ -->   git checkout <nomeBranch>
+
+/*Eliminar branch */ -->      git branch -D <nomeBranch>
+
+/*Juntar uma branch à branch principal (master) -->      git merge <nomeBranch>
+
+
+
