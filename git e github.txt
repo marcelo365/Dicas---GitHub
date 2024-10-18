@@ -43,5 +43,13 @@
 
 /*Juntar uma branch à branch principal (master) -->      git merge <nomeBranch>
 
+------------------------------------------------------------------------------------------------------------------
+
+/*Adicionar ficheiros no repositorio do github
+
+git remote add origin https://github.com/marcelo365/ooooo.git
+git branch -M main
+git push -u origin main
+
 
 
